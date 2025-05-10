@@ -1,0 +1,16 @@
+{
+  "domain": "usb_co2",
+  "name": "USB CO2",
+  "codeowners": ["@devbis"],
+  "config_flow": true,
+  "dependencies": ["usb"],
+  "iot_class": "local_polling",
+  "requirements": ["co2meter==0.2.6"],
+  "version": "1.0.0",
+  "usb": [
+    {
+      "vid": "04D9",
+      "pid": "A052"
+    }
+  ]
+}

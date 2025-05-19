@@ -1,7 +1,8 @@
 # Home Assistant Custom Component: `usb_co2`
 
-This custom component for Home Assistant integrates CO₂ sensors based on the **USB interface**, such as **Dadget/Holtek USB CO₂ meters**. It automatically detects compatible USB devices and exposes both CO₂ and temperature readings as sensor entities.
+This custom component for Home Assistant integrates CO₂ sensors based on the **USB interface**, such as **Dadget/Masterkit MT8057S USB CO₂ meters**. It automatically detects compatible USB devices and exposes both CO₂ and temperature readings as sensor entities.
 
+![mt8057.jpg](mt8057.jpg)
 ## Features
 
 - 🟢 Automatic discovery of supported USB-connected CO₂ meters
@@ -10,7 +11,7 @@ This custom component for Home Assistant integrates CO₂ sensors based on the *
 
 ## Supported Devices
 
-This component is compatible with Dadget/Holtek USB CO₂ meters using HID protocol.
+This component is compatible with Dadget/Masterkit MT8057S USB CO₂ meters based on ZyAura ZG01 module using HID protocol
 
 ## Installation
 
